@@ -1,0 +1,44 @@
+1-FeatureExtraction: 	
+ 1.1 AddingFeaturesInBinaryFormat 	
+    1.1.1AddingFeaturesInBinaryFormat.py :Adding Standard Permissions
+						        1.1.2AddingFeaturesInBinaryFormat2.py :Adding Non Standard Permissions (Whole)
+							    1.1.3AddingFeaturesInBinaryFormat3.py :Adding Non Standard Permissions (Suffix)
+							    1.1.4AddingFeaturesInBinaryFormat4.py :Adding CFG Features-Benign
+							    1.1.5AddingFeaturesInBinaryFormat5.py :Adding CFG Features-Malicious
+
+			
+ 1.2 DistinctSet :Contains Distinct features to be used as headers
+
+
+ 1.3 CFG: Contains Script to generate graphs
+
+			
+ 1.4 APICalls:Scripts to convert to smali and get frequency
+
+	
+ 1.5Analysis:Extra analysis done for feature selection
+
+
+
+2-BinaryFeatures:Binary features for CFG,API calls & permissions
+
+
+3-FinalFeatureVector
+
+
+4-Classification:Contains code used for feature selection,classification and getting accuracy
+
+
+References:Additional Papers referred to 
+
+
+
+
+
+HOW TO RUN: 	Step1- cd 4-Classification
+		
+                Step2- python class.py
+
+
+
+
